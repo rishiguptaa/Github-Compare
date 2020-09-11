@@ -2,12 +2,13 @@
 
 This project was set up using create-react-app and was named Gihub Compare.
 On day1 I improved UI of this project, where it had been mentioned to be done by AntDesign.
-It was hard to find the documentations of antDesign and i had no hand experience on AntDesign but any how managed to use little bit of it.
+It was hard to find the documentations of antDesign and I had no hand experience on AntDesign but any how managed to use little bit of it.
 
 ## Day2
 
 On day 2, I tried positioning the elements and the card.
-I used axios to fetch the api calls and failed to do so. then I found an alterntaive to axios ehich is useEffect method and fetched the details from the GitHub api.
+I used axios to fetch the api calls and failed to do so because of some installation errors.
+Then I found an alterntaive to axios ehich is useEffect method and fetched the details from the GitHub api.
 I successfuy fetched the required details from the api including avatar. I wrote a small algorithm to give the user a rank. Such as if the profile has a certain number
 of follwers, he/she has awarded a rank based on the number of followers using if else condition.
 I was able to print "Not Found" message if the invalid user id is given to fetch.
